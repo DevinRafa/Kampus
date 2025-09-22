@@ -1,5 +1,7 @@
 /*
     Program membuat penjumlahan faktorial ganji di angka 1-6 menggunakan for loops
+    I. S. = Program memasukan nilai 6 di variable angka untuk batas akhir program
+    F. S. = Program menampilkan dari faktorial ganjil dari 1-6
 */
 
 #include <iostream>
