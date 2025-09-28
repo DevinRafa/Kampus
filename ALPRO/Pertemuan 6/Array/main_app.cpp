@@ -1,7 +1,7 @@
 /*
     Program Perkalian Matriks Dua Dimensi
     I. S. = Program dimasukan nilai untuk variable array yang sudah ditentukan
-    F. S. = Program menghitung menentukan hasil dari perkalian matriks 2D
+    F. S. = Program menghitung dan menentukan hasil dari perkalian matriks 2D
 */
 
 #include <iostream>
