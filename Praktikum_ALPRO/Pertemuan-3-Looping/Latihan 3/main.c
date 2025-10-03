@@ -16,4 +16,5 @@ int main(){
         }
     }
     printf("angka terkecil dari 10 bilangan: %d",angka_terkecil);
+    return 0;
 }

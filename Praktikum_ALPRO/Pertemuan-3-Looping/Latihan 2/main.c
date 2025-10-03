@@ -14,4 +14,5 @@ int main(){
         printf("%d\n",hasil);
         i += 1;
     }
+    return 0;
 }

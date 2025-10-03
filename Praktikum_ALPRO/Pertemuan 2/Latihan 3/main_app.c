@@ -12,4 +12,5 @@ int main(){
     else{
         printf("angka bernilai negatif");
     }
+    return 0;
 }
