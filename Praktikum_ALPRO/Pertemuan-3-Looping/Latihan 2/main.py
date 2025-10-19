@@ -1,4 +1,4 @@
-# Menjumlahkan Deret Bilangan dari 1 hinnga bilangan yang diimputkan oleh user
+"""Menjumlahkan Deret Bilangan dari 1 hinnga bilangan yang diimputkan oleh user"""
 
 i = 1
 hasil = 0
