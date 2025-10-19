@@ -5,6 +5,7 @@ int main(){
     int jml_hari;
     int hari = 1;
     int roti = 0, tutup = 0, produksi_roti = 0;
+    int omset;
     
 
     cout<<"Masuka jumlah hari: ";
@@ -17,15 +18,22 @@ int main(){
             continue;
         }
         else if(hari==1){
-            roti += 5;
+            produksi_roti += 5;
         }
-        roti += 1;
+        else if (produksi_roti >= 12){
+            produksi_roti /= 2;
+        }
+        else{
+            produksi_roti += 3;
+        }
+        roti += produksi_roti;
         hari++;
 
     }
-    cout<<"total hari: "<<hari<<endl;
+    omset=roti*8000;
     cout<<"total roti: "<<roti<<endl;
-    cout<<"total tutup: "<<tutup<<endl;
+    cout<<"total hari tutup: "<<tutup<<endl;
+    cout<<"total pendapatan: "<<omset<<endl;
 
     return 0;
 }
