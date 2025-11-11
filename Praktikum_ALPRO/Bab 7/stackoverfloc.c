@@ -16,7 +16,7 @@ struct some_struct {
  *   This allows the function test() to modify the variable provided by the
  *   caller of test() rather than a local copy.
  */
-int test(struct struct_variable *state) {
+int test(struct some_struct *state) {
     state->total = 4;
     return 0;
 }
@@ -41,7 +41,7 @@ int test2(struct some_struct state) {
  * To make any changes made to the local copy in the argument,
  * you need to assign the local copy to the argument.
  */
-int test3(struct struct_variable *state) {
+int test3(struct some_struct *state) {
     struct some_struct state_copy;
     state_copy = *state;    // make a local copy of the struct
     state_copy.total = 12;  // modify the local copy of the struct
